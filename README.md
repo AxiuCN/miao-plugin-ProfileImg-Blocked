@@ -1,2 +1,46 @@
 # miao-plugin-ProfileImg-Blocked
-暂时被主图库屏蔽的Yunzai的原神&amp;星铁面板图图库（自用）
+这个图库是 Yunzai 框架下暂时被主图库屏蔽的 miao-plugin 面板图资源，涵盖了**原神&星铁**的面板图资源
+
+## 安装方式
+在Yunzai根目录执行命令安装（二选一）
+
+> Github
+```bash 
+cd plugins/miao-plugin/resources/profile/normal-character
+git init
+git remote add origin https://github.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git
+git fetch origin main --depth 1
+git reset --hard origin/main
+```
+
+> Gitee
+```bash 
+cd plugins/miao-plugin/resources/profile/normal-character
+git init
+git remote add origin https://gitee.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git
+git fetch origin main --depth 1
+git reset --hard origin/main
+```
+
+## 面板图图库管理器
+用于管理本图库的单文件插件，支持查看状态、自动/手动更新等功能
+
+### 安装
+
+在 Yunzai 根目录下执行以下命令：
+```bash
+curl -o plugins/example/面板图图库管理器.js "https://raw.githubusercontent.com/AxiuCN/Yunzai_JS_Plugins@main/%E9%9D%A2%E6%9D%BF%E5%9B%BE%E5%9B%BE%E5%BA%93%E7%AE%A1%E7%90%86%E5%99%A8.js"
+```
+
+下载失败可尝试：JsDelivr CDN：
+```bash
+curl -o plugins/example/面板图图库管理器.js "https://cdn.jsdelivr.net/gh/AxiuCN/Yunzai_JS_Plugins@main/%E9%9D%A2%E6%9D%BF%E5%9B%BE%E5%9B%BE%E5%BA%93%E7%AE%A1%E7%90%86%E5%99%A8.js"
+```
+
+## 主图库
+储存正在服役的 miao-plugin 面板图资源
+https://github.com/AxiuCN/miao-plugin-ProfileImg/
+
+## 免责声明
+* **请勿将此模板图库用于任何以盈利为目的的场景.** 
+* **图片与其他素材均来自于网络，图片资源严禁用于任何商业用途。如有侵权请联系删除**
