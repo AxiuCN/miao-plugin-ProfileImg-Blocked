@@ -38,7 +38,7 @@ curl -o plugins/example/面板图图库管理器.js "https://cdn.jsdelivr.net/gh
 ```
 
 ## 主图库
-储存正在服役的 miao-plugin 面板图资源
+储存正在服役的 miao-plugin 面板图资源  
 https://github.com/AxiuCN/miao-plugin-ProfileImg/
 
 ## 免责声明
