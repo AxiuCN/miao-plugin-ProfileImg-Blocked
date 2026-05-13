@@ -2,24 +2,16 @@
 这个图库是 Yunzai 框架下暂时被主图库屏蔽的 miao-plugin 面板图资源，涵盖了**原神&星铁**的面板图资源
 
 ## 安装方式
-在Yunzai根目录执行命令安装（二选一）
+本仓库需作为主图库的子模块安装。请确保已安装 [miao-plugin-ProfileImg](https://github.com/AxiuCN/miao-plugin-ProfileImg)，然后在 `profile` 目录下执行（二选一）：
 
 > Github
 ```bash 
-cd plugins/miao-plugin/resources/profile/normal-character
-git init --initial-branch=main
-git remote add origin https://github.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git
-git fetch origin main --depth 1
-git reset --hard origin/main
+git submodule add https://github.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git blocked-character
 ```
 
 > Gitee
 ```bash 
-cd plugins/miao-plugin/resources/profile/normal-character
-git init --initial-branch=main
-git remote add origin https://gitee.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git
-git fetch origin main --depth 1
-git reset --hard origin/main
+git submodule add https://gitee.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git blocked-character
 ```
 
 ## 面板图图库管理器
